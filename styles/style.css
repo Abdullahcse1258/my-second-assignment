@@ -213,6 +213,10 @@
     width: 170px;
     height: 170px;
 }
+.gain:hover{
+    background-color: rgb(197, 236, 233);
+    transform: scale(1.1) translate(5px) rotate(10deg);
+}
 .gain img{
     margin-top: 40px;
     width: 45.22px;
@@ -271,3 +275,26 @@
     padding-top: 40px;
 }
 /* Footer section close */
+/* Responsive only mobile */
+@media only screen and (max-width: 588px){
+    .container .nav{
+        width: 100%;
+    }
+    .project-gain{
+        flex-direction: column;
+        margin-left: 290px;
+    }
+    .sponspors-start{
+        padding: 0 60%;
+        width: 100%;
+    }
+    .sponspors-item{
+        padding:0 130%;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .footer-section{
+        padding: 0 60%;
+        width: 100%;
+    }
+}
