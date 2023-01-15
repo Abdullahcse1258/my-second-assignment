@@ -279,14 +279,26 @@
 @media only screen and (max-width: 588px){
     .container{
         width: 100%;
+        background-color: white;
+    }
+    .nav-list{
+        flex-direction: column;
+        width: 100px;
+        gap: 5px;
+        margin-left: 800px;
+    }
+    .nav-title{
+        width: 180px;
+        margin: 0 -100px;
     }
     .brand{
-        text-align: center;
-        width: 100%;
-        margin: 0 40%;
+        margin: 0 60%;
+        margin-top: -50px;
+        margin-bottom: 50px;
     }
     .banner img{
-        width: 100%;
+        width: 800px;
+        margin-top: -40px;
     }
     .features-image{
         display: grid;
@@ -298,8 +310,9 @@
         width: 700px;
     }
     .features-list{
-        width: 100%;
-        margin: 0 100%;
+        width: 300px;
+        margin: 0 200px;
+        margin-top: -80px;
     }
     .features-start{
         flex-direction: column;
@@ -308,18 +321,18 @@
     .experience-start{
         flex-direction: column;
     }
-    .experience-title, .experience-description{
-        margin: 0 100%;
-        width: 100%;
+    .experience-feature{
+        margin: 0 130%;
     }
-    .experience-feature article{
-        padding: 0 100%;
+    .experience-title, .experience-description{
+        width: 500px;
+        margin-bottom: 20px;
     }
     .experience-image img{
         padding: 0 120%;
     }
     .button{
-        padding: 0 200%;
+        padding: 0 270%;
         padding-top: 130px;
     }
     .project-gain{
@@ -328,8 +341,7 @@
     }
     .sponspors-start{
         margin: 15px 100%;
-        width: 80%;
-        
+        width: 80%;  
     }
     .sponspors-item{
         padding:0 130%;
@@ -337,7 +349,8 @@
         gap: 35px;
     }
     .footer-section{
-        padding: 0 60%;
+        padding: 0 40%;
         width: 100%;
     }
 }
+/* Responsive only mobile close */
