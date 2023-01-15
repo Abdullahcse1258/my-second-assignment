@@ -277,16 +277,59 @@
 /* Footer section close */
 /* Responsive only mobile */
 @media only screen and (max-width: 588px){
-    .container .nav{
+    .container{
         width: 100%;
+    }
+    .brand{
+        text-align: center;
+        width: 100%;
+        margin: 0 40%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .features-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: -100px;
+    }
+    .features-image img{
+        height: 600px;
+        width: 700px;
+    }
+    .features-list{
+        width: 100%;
+        margin: 0 100%;
+    }
+    .features-start{
+        flex-direction: column;
+        width: 100%;
+    }
+    .experience-start{
+        flex-direction: column;
+    }
+    .experience-title, .experience-description{
+        margin: 0 100%;
+        width: 100%;
+    }
+    .experience-feature article{
+        padding: 0 100%;
+    }
+    .experience-image img{
+        padding: 0 120%;
+    }
+    .button{
+        padding: 0 200%;
+        padding-top: 130px;
     }
     .project-gain{
         flex-direction: column;
-        margin-left: 290px;
+        padding: 0 125%;
     }
     .sponspors-start{
-        padding: 0 60%;
-        width: 100%;
+        margin: 15px 100%;
+        width: 80%;
+        
     }
     .sponspors-item{
         padding:0 130%;
