@@ -118,3 +118,66 @@
     margin-bottom: 35px;
 }
 /* Quick list of Our Features end */
+/* Features you will love & enjoy & experience */
+.experience-start{
+    display: flex;
+    margin: 0 140px;
+    gap: 80px;
+}
+.experience-feature{
+    margin-top: 50px;
+    
+}
+.experience-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+    border-left: 3px solid #FF900E;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.experience-feature article{
+    padding: 20px;
+    background: #f5f3f3;
+    box-shadow: 0px 4px 30px rgba(161, 70, 70, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 430px;
+    height: 90px;
+}
+.article-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.article-info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.experience-image img{
+    width: 550px;
+    height: 800px;
+}
+.experience-image .button{
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.button .btn-primary{
+    width: 250px;
+    height: 150px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 130px;
+}
+.btn-primary .span-ex{
+    font-weight: 500;
+font-size: 20px;
+}
