@@ -7,7 +7,7 @@
 }
 .container{
     width: 100%;
-    height: 950px;
+    height: 900px;
     background: rgba(255, 144, 14, 0.1);
 }
 .nav{
@@ -35,7 +35,7 @@
 /* nav close */
 /* Brand of group start */
 .brand{
-    width: 662px;
+    width: 690px;
     height: 225px;
     text-align: center;
     margin: 0 350px;
@@ -49,11 +49,11 @@
 .brand-description{
     color: #727272;
     font-weight: 400;
-    font-size: 16px;
-    width: 648px;
+    font-size: 14px;
+    width: 688px;
     height: 52px; 
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 .btn-primary{
     width: 160px;
@@ -71,12 +71,12 @@
     margin: 0px 170px;
     width: 1000px;
     height: 500px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 /* Banner image close */
 /* Quick list of Our Features */
 .features{
-    margin: 60px 200px;
+    margin: 50px 200px;
 }
 .features-start{
     display: flex;
@@ -93,7 +93,7 @@
     border-radius: 8px;
 }
 .features-list{
-    padding-top: 180px;
+    padding-top: 170px;
 }
 .features-title{
     font-weight: 500;
@@ -144,7 +144,7 @@
 }
 .experience-feature article{
     padding: 20px;
-    background: #f5f3f3;
+    background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(161, 70, 70, 0.06);
     border-radius: 8px;
     margin-bottom: 20px;
@@ -175,9 +175,99 @@
     height: 150px;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 .btn-primary .span-ex{
     font-weight: 500;
-font-size: 20px;
+    font-size: 20px;
 }
+/* Features you will love & enjoy & experience end */
+/* Some facts */
+.facts{
+    margin-left: 140px;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.facts-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 462px;
+    height: 32px;
+    margin-bottom: 80px;
+}
+/* Some facts close */
+/* Achivement */
+.project-gain{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.gain{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 170px;
+    height: 170px;
+}
+.gain img{
+    margin-top: 40px;
+    width: 45.22px;
+    height: 45.22px;
+    margin-bottom: 5px;
+}
+.gain-number{
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;;
+}
+.gain-info{
+    font-weight: 600;
+    font-size: 12px;
+    color: #727272;
+    margin-top: 5px;
+}
+/* Our Sponspors */
+.sponspors-start{
+    text-align: center;
+    width: 542px;
+    height: 129px;
+    margin: 100px 400px 5px 400px;
+}
+.sponspors-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sponspors-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sponspors-item{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.sponspors-item img{
+    width: 120px;
+    height: 40px;
+}
+/* Our Sponspors */
+/* Footer section */
+.footer-section{
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    margin: 80px 175px;
+}
+.footer-description{
+    color: #424242;
+    padding-top: 40px;
+}
+/* Footer section close */
